@@ -7,14 +7,14 @@
   - Part_4: includes list of test cases for Best Buy APIs  and maven broject using Rest Assured Lib to automate Api testing for Best Buy APIs
 
 **Prerequisits & Configrtation :**
-- to execute Part_3 (FaceBookAutomationTesting) you need to make sure you fullfiled these Prerequisits :
+- to execute Part_3 (FaceBookAutomationTesting) you need to make sure you fullfiled these prerequisits :
   - Java(JDK). https://www.guru99.com/install-java.html
   - Eclipse.   https://www.guru99.com/install-eclipse-java.html
    - TestNG.    https://www.guru99.com/install-testng-in-eclipse.html
     - Maven https://www.javatpoint.com/how-to-install-maven
 
-- to execute Part_4 (BestBuyApis) you need to make sure you fullfiled these Prerequisits :
-      -same prerequests for Part_3     
+- to execute Part_4 (BestBuyApis) you need to make sure you fullfiled these prerequisits :
+     - same prerequisits for Part_3     
      - NodeJs (not latest version as it is not stable yet). https://www.guru99.com/download-install-node-js.html
      - clone project through mentioned link and follow steps in README.md file to run it.   https://github.com/bestbuy/api-playground/
  

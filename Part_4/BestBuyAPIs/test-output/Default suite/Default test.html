@@ -1,0 +1,299 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>44/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Nov 07 03:40:47 EET 2021</td>
+</tr>
+<tr><td>Total time:</td><td>20 seconds (20112 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_request_with_Valid_Param()'><b>TC_GET_request_with_Valid_Param</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores<br>Parameters: name, Minnetonka</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Post_request_with_no_address1()'><b>TC_Post_request_with_no_address1</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_request_with_Valid_Param()'><b>TC_GET_request_with_Valid_Param</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores<br>Parameters: type, BigBox</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_request_with_Valid_Param()'><b>TC_GET_request_with_Valid_Param</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores<br>Parameters: lat, 44.969658</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Delete_request_with_not_exist_id()'><b>TC_Delete_request_with_not_exist_id</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_request_with_Valid_Param()'><b>TC_GET_request_with_Valid_Param</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores<br>Parameters: address, 13513 Ridgedale Dr</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_request_with_Not_exist_id()'><b>TC_GET_request_with_Not_exist_id</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_request_with_Valid_Param()'><b>TC_GET_request_with_Valid_Param</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores<br>Parameters: city, Hopkins</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Post_request_with_no_lat()'><b>TC_Post_request_with_no_lat</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_LIMIT_bad_request()'><b>TC_GET_LIMIT_bad_request</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_request_with_Valid_Param()'><b>TC_GET_request_with_Valid_Param</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores<br>Parameters: address2,  </td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_request_with_Valid_Param()'><b>TC_GET_request_with_Valid_Param</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores<br>Parameters: id, 4.0</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Patch_request_with_State()'><b>TC_Patch_request_with_State</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Post_request_with_no_Name()'><b>TC_Post_request_with_no_Name</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Patch_request_with_Zip()'><b>TC_Patch_request_with_Zip</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Patch_request_with_Address2()'><b>TC_Patch_request_with_Address2</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Patch_valid_request()'><b>TC_Patch_valid_request</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Post_request_with_no_type()'><b>TC_Post_request_with_no_type</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Post_request_with_no_state()'><b>TC_Post_request_with_no_state</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Patch_request_with_City()'><b>TC_Patch_request_with_City</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Patch_request_with_Name()'><b>TC_Patch_request_with_Name</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Patch_request_with_not_exist_ID()'><b>TC_Patch_request_with_not_exist_ID</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_request_with_Valid_Param()'><b>TC_GET_request_with_Valid_Param</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores<br>Parameters: state, MN</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_SKIP_bad_request()'><b>TC_GET_SKIP_bad_request</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_LIMIT_check_status_code_and_lenght()'><b>TC_GET_LIMIT_check_status_code_and_lenght</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>1</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Post_request_with_no_lng()'><b>TC_Post_request_with_no_lng</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Post_request_with_no_city()'><b>TC_Post_request_with_no_city</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Post_request_with_no_zip()'><b>TC_Post_request_with_no_zip</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Post_request_with_no_hours()'><b>TC_Post_request_with_no_hours</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_request_with_Valid_Param()'><b>TC_GET_request_with_Valid_Param</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores<br>Parameters: lng, -93.449539</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Patch_request_with_hours()'><b>TC_Patch_request_with_hours</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_status_code()'><b>TC_GET_status_code</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>4</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Patch_request_with_lat()'><b>TC_Patch_request_with_lat</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Delete_valid_request()'><b>TC_Delete_valid_request</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Post_request_with_no_body()'><b>TC_Post_request_with_no_body</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Patch_request_with_Type()'><b>TC_Patch_request_with_Type</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Patch_request_with_lng()'><b>TC_Patch_request_with_lng</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Post_valid_request()'><b>TC_Post_valid_request</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>1</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Post_request_with_no_address2()'><b>TC_Post_request_with_no_address2</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_Patch_request_with_Address()'><b>TC_Patch_request_with_Address</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_request_with_Valid_Param()'><b>TC_GET_request_with_Valid_Param</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores<br>Parameters: zip, 55305.0</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_SKIP_status_code_and_lenght()'><b>TC_GET_SKIP_status_code_and_lenght</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_request_with_Valid_Param()'><b>TC_GET_request_with_Valid_Param</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores<br>Parameters: hours, Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8</td>
+<td></td>
+<td>0</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+<tr>
+<td title='BestBuyAPIs.BestBuyAPIs.TS_Stores.TC_GET_response_size()'><b>TC_GET_response_size</b><br>Test class: BestBuyAPIs.BestBuyAPIs.TS_Stores</td>
+<td></td>
+<td>2</td>
+<td>BestBuyAPIs.BestBuyAPIs.TS_Stores@383bfa16</td></tr>
+</table><p>
+</body>
+</html>

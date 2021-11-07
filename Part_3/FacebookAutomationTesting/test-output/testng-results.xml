@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="12" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30961" started-at="2021-11-07T21:48:02Z" finished-at="2021-11-07T21:48:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30961" started-at="2021-11-07T21:48:02Z" finished-at="2021-11-07T21:48:33Z">
+      <class name="tests.RegistrationTest">
+        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:tests.RegistrationTest@48524010]" name="StartDriver" is-config="true" duration-ms="6337" started-at="2021-11-07T21:47:56Z" finished-at="2021-11-07T21:48:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method status="PASS" signature="registerWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.RegistrationTest@48524010]" name="registerWithValidData" duration-ms="9321" started-at="2021-11-07T21:48:03Z" data-provider="getValidRegstrationData" finished-at="2021-11-07T21:48:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Insta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bug]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1994.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithValidData -->
+        <test-method status="PASS" signature="registrWithIncompleteData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.RegistrationTest@48524010]" name="registrWithIncompleteData" duration-ms="3884" started-at="2021-11-07T21:48:12Z" data-provider="getInvalidRegistrationData" finished-at="2021-11-07T21:48:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NoFirstName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bug]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1994.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[What's your name?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrWithIncompleteData -->
+        <test-method status="PASS" signature="registrWithIncompleteData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.RegistrationTest@48524010]" name="registrWithIncompleteData" duration-ms="2024" started-at="2021-11-07T21:48:16Z" data-provider="getInvalidRegistrationData" finished-at="2021-11-07T21:48:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NoLastName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Insta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1994.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[What's your name?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrWithIncompleteData -->
+        <test-method status="PASS" signature="registrWithIncompleteData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.RegistrationTest@48524010]" name="registrWithIncompleteData" duration-ms="1777" started-at="2021-11-07T21:48:18Z" data-provider="getInvalidRegistrationData" finished-at="2021-11-07T21:48:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NoEmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Insta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bug]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1994.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[You'll use this when you log in and if you ever need to reset your password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrWithIncompleteData -->
+        <test-method status="PASS" signature="registrWithIncompleteData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.RegistrationTest@48524010]" name="registrWithIncompleteData" duration-ms="1967" started-at="2021-11-07T21:48:20Z" data-provider="getInvalidRegistrationData" finished-at="2021-11-07T21:48:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NoEmailConfirmation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Insta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bug]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1994.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Please re-enter your email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrWithIncompleteData -->
+        <test-method status="PASS" signature="registrWithIncompleteData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.RegistrationTest@48524010]" name="registrWithIncompleteData" duration-ms="1877" started-at="2021-11-07T21:48:22Z" data-provider="getInvalidRegistrationData" finished-at="2021-11-07T21:48:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NoPassword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Insta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bug]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1994.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Enter a combination of at least six numbers, letters and punctuation marks (such as ! and &).]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrWithIncompleteData -->
+        <test-method status="PASS" signature="registrWithIncompleteData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.RegistrationTest@48524010]" name="registrWithIncompleteData" duration-ms="1725" started-at="2021-11-07T21:48:23Z" data-provider="getInvalidRegistrationData" finished-at="2021-11-07T21:48:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[N0Birthdate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Insta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bug]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[It looks like you've entered the wrong info. Please make sure that you use your real date of birth.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrWithIncompleteData -->
+        <test-method status="PASS" signature="registrWithIncompleteData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.RegistrationTest@48524010]" name="registrWithIncompleteData" duration-ms="1851" started-at="2021-11-07T21:48:25Z" data-provider="getInvalidRegistrationData" finished-at="2021-11-07T21:48:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NoBirthYear]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Insta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bug]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[It looks like you've entered the wrong info. Please make sure that you use your real date of birth.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrWithIncompleteData -->
+        <test-method status="PASS" signature="registrWithIncompleteData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.RegistrationTest@48524010]" name="registrWithIncompleteData" duration-ms="1980" started-at="2021-11-07T21:48:27Z" data-provider="getInvalidRegistrationData" finished-at="2021-11-07T21:48:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NoGender]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Insta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bug]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[instaBug@instabug.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1994.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Please choose a gender. You can change who can see this later.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrWithIncompleteData -->
+        <test-method status="PASS" signature="registrWithIncompleteData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.RegistrationTest@48524010]" name="registrWithIncompleteData" duration-ms="1993" started-at="2021-11-07T21:48:29Z" data-provider="getInvalidRegistrationData" finished-at="2021-11-07T21:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidEmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Insta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[instaInvalid@instabug]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[instaInvalid@instabug.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1994.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Please enter a valid mobile number or email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrWithIncompleteData -->
+        <test-method status="PASS" signature="registrWithIncompleteData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.RegistrationTest@48524010]" name="registrWithIncompleteData" duration-ms="2106" started-at="2021-11-07T21:48:31Z" data-provider="getInvalidRegistrationData" finished-at="2021-11-07T21:48:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidEmailConfirmation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Insta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[instaInvalid@instabug.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[instaInvalid@instabug]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1994.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Please enter a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrWithIncompleteData -->
+        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.RegistrationTest@48524010]" name="StopDriver" is-config="true" duration-ms="4121" started-at="2021-11-07T21:48:33Z" finished-at="2021-11-07T21:48:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- tests.RegistrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
